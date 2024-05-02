@@ -267,6 +267,9 @@
   .hotel-part h2 {
     font-size: 50px;
   }
+  .sticky img{
+    width: 80%;
+  }
 }
 
 /*-------------------end responsive------------------*/
@@ -447,16 +450,21 @@
     height: 80vh;
     object-fit: cover;
   }
+  .sec-container-img-part {
+  position: relative;
+  padding-right: 5px;
+}
 
   .contain-part-2 {
     background-color: rgba(0, 0, 0, 0.68);
     opacity: 0.68;
     text-align: center;
+    align-items: center;
     padding: 35px 10px;
     position: absolute;
-    top: 87.0%;
+    top: 84.0%;
     left: 0;
-    width: 99.3%;
+    width: 95.3%;
   }
 
 }
