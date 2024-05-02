@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+.color {
+  background-color: #FBF4EB;
+}
+
+.wrapper {
+  max-width: 1140px;
+  width: 1140px;
+  display: flex;
+  margin: 100px auto;
+  padding: 20px 20px 60px 20px;
+}
+
+.container {
+  padding: 30px 30px 0 30px;
+}
+.sec-container{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.img-sec img {
+  width: 100%;
+  padding: 10px 0 0;
+}
+
+.img-sec:hover {
+  opacity: .6;
+  transition: all 0.3s ease-in-out;
+}
+
+.first-heading h2 {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.first-heading {
+  padding-top: 30px;
+}
+
+.room-parameters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-parameters h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.room-parameters i {
+  color: #A2454F;
+  padding-right: 10px;
+}
+
+.first-heading p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  padding-bottom: 40px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid darkgray;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 30px;
+}
+
+.item-grid h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.item-grid i {
+  color: #2A9671;
+  padding-right: 15px;
+}
+
+.important-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.important-area h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.important-area i {
+  color: #A2454F;
+  padding-right: 10px;
+}
+
+.cancellation h2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  padding-bottom: 5px;
+}
+
+.button input {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #D3BB7B;
+  border: none;
+  cursor: pointer;
+}
