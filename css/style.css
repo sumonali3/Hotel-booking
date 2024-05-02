@@ -282,6 +282,10 @@
     flex-direction: column;
     text-align: center;
   }
+.shodaw{
+  margin-bottom: 15px;
+}
+
 
   .hotel-part {
     width: 100%;
@@ -425,7 +429,7 @@
 
   .wrapper-2 {
     width: 100%;
-    min-height: 80vh;
+    min-height: 1000vh;
   }
 
   .sec-num-2 {
@@ -445,9 +449,13 @@
     padding: 0 10px;
   }
 
+  ..sec-container-img-part video{
+    width: 100%;
+    height: 1000vh;
+  }
   .sec-container-img-part img {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     object-fit: cover;
   }
 
@@ -490,7 +498,10 @@
     width: 100%;
     padding: 0 10px;
   }
-
+  ..sec-container-img-part video{
+    width: 100%;
+    height: 80vh;
+  }
   .sec-container-img-part img {
     width: 100%;
     height: 80vh;
@@ -502,7 +513,7 @@
     opacity: 0.68;
     text-align: center;
     position: absolute;
-    top: 82%;
+    top: 86%;
     left: 10px;
     width: 94.5%;
   }
