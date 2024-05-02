@@ -64,6 +64,30 @@
   font-weight: 500;
   padding-top: 50px;
 }
+/*------------------responsive for phone----------------*/
+@media only screen and (max-width: 768px){
+  .container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-sec-img{
+    width: 100%;
+  }
+
+  .hero-sec-img img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .hero-sec-contain {
+    width: 100%;
+  }
+
+}
 
 /* End hero section */
 
