@@ -64,30 +64,109 @@
   font-weight: 500;
   padding-top: 50px;
 }
-/*------------------responsive for phone----------------*/
-@media only screen and (max-width: 768px){
+
+/*-----------------tablate responsive---------------*/
+/*-------------hero section responsive---------------*/
+
+@media only screen and (max-width: 1380px){
+
   .container {
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .hero-sec-img{
     width: 100%;
   }
+  .hero-sec-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
 
+  .main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #A2454F;
+    text-align: center;
+  }
+
+  .hero-sec-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contain-1 h1{
+    font-size: 200px;
+  }
+
+  .hero-sec-contain h2{
+    font-size: 20px;
+  }
+
+  .font-2n h2 {
+    font-size: 30px;
+}
+}
+/*-----------End hero section responsive-------------------*/
+
+/*------------------responsive for phone----------------*/
+/*-----------------tablate responsive---------------*/
+@media only screen and (max-width: 768px){
+
+  .container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero-sec-img{
+    width: 100%;
+  }
   .hero-sec-img img {
     width: 100%;
     height: 80vh;
     object-fit: cover;
   }
-  
-  .hero-sec-contain {
+
+  .main {
     width: 100%;
+    height: 80vh;
+    position: relative;
+    background-color: #A2454F;
+    text-align: center;
   }
 
+  .hero-sec-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contain-1 h1{
+    font-size: 150px;
+  }
+
+  .hero-sec-contain h2{
+    font-size: 18px;
+  }
+
+  .font-2n h2 {
+    font-size: 25px;
 }
+
+
+
+}
+/*-----------End hero section responsive-------------------*/
+/*----------------phone responsive close---------------------*/
 
 /* End hero section */
 
@@ -166,6 +245,55 @@
   text-decoration: none;
 }
 
+/*------------start section 2 responsive-----------------*/
+/*----------tablate responsive---------*/
+@media only screen and (max-width: 1380px){
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hotel-part {
+    width: 100%;
+    padding: 10px 25px;
+  }
+
+  .clients-part{
+    width: 100%;
+  }
+  .hotel-part h2 {
+    font-size: 50px;
+  }
+}
+
+/*-------------------end responsive------------------*/
+/*------------phone responsive-----------------*/
+@media only screen and (max-width: 768px){
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hotel-part {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .clients-part{
+    width: 100%;
+  }
+  .hotel-part h2 {
+    font-size: 40px;
+  }
+}
+
+/*-------------------end responsive------------------*/
 /* End left site 2nd section */
 
 .clients-part {
@@ -237,7 +365,7 @@
   text-align: center;
   padding: 35px 0;
   position: absolute;
-  top: 87.9%;
+  top: 87.7%;
   left: 0;
   width: 99.3%;
 }
@@ -288,6 +416,100 @@
   object-fit: cover;
 }
 
+/*------------setion 3 responsive----------------*/
+/*------------tablate responsive-----------------*/
+@media only screen and (max-width: 1380px){
+
+  .wrapper-2 {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .sec-num-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .sec-num-3,
+.sec-num-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+  .sec-container-img-part {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .sec-container-img-part img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .contain-part-2 {
+    background-color: rgba(0, 0, 0, 0.68);
+    opacity: 0.68;
+    text-align: center;
+    padding: 35px 10px;
+    position: absolute;
+    top: 87.0%;
+    left: 0;
+    width: 99.3%;
+  }
+
+}
+
+/*-------------------end responsive------------------*/
+
+/*------------setion 3 responsive----------------*/
+/*------------phone responsive-----------------*/
+@media only screen and (max-width: 768px){
+
+  .wrapper-2 {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  .sec-num-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .sec-num-3,
+  .sec-num-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-container-img-part {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .sec-container-img-part img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .contain-part-2 {
+    background-color: rgba(0, 0, 0, 0.68);
+    opacity: 0.68;
+    text-align: center;
+    padding: 35px 10px;
+    position: absolute;
+    top: 86.0%;
+    left: 0;
+    width: 99.3%;
+  }
+
+}
+
+/*-------------------end responsive------------------*/
+
 /*--------------------Start footer---------------------*/
 
 .wrapper-3 {
@@ -300,7 +522,7 @@
 }
 
 .divider hr {
-  width: 1600px;
+  width: 98%;
 }
 
 .footer-1 {
@@ -365,4 +587,99 @@
   font-family: "Oswald", sans-serif;
   padding: 2.7px;
   cursor: pointer;
+}
+
+/*------------setion 3 responsive----------------*/
+/*------------tablate responsive-----------------*/
+@media only screen and (max-width: 1380px){
+
+  .footer-1 {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .address{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .divider {
+    padding: 50px 30px 40px 30px;
+  }
+
+  .form  {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .width-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .width-1 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .width-2 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .about-us {
+   width: 100%;
+   text-align: center;
+   padding: 0;
+  }
+}
+/*------------setion 3 responsive----------------*/
+/*------------footer responsive-----------------*/
+@media only screen and (max-width: 768px){
+
+  .footer-1 {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .address{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .divider {
+    padding: 50px 30px 40px 30px;
+  }
+
+  .form  {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .width-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .width-1 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .width-2 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .about-us {
+   width: 100%;
+   text-align: center;
+   padding: 0;
+  }
 }
