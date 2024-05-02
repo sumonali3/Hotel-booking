@@ -450,21 +450,15 @@
     height: 80vh;
     object-fit: cover;
   }
-  .sec-container-img-part {
-  position: relative;
-  padding-right: 5px;
-}
 
   .contain-part-2 {
     background-color: rgba(0, 0, 0, 0.68);
     opacity: 0.68;
     text-align: center;
-    align-items: center;
-    padding: 35px 10px;
     position: absolute;
-    top: 84.0%;
-    left: 0;
-    width: 95.3%;
+    top: 86.0%;
+    left: 5px;
+    width: 98%;
   }
 
 }
@@ -507,11 +501,10 @@
     background-color: rgba(0, 0, 0, 0.68);
     opacity: 0.68;
     text-align: center;
-    padding: 35px 10px;
     position: absolute;
-    top: 86.0%;
-    left: 0;
-    width: 99.3%;
+    top: 85.8%;
+    left: 10px;
+    width: 96%;
   }
 
 }
