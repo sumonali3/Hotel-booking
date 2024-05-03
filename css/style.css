@@ -557,10 +557,11 @@
     background-color: rgba(0, 0, 0, 0.68);
     opacity: 0.68;
     text-align: center;
+    justify-content: center;
     position: absolute;
     top: 86%;
     left: 10px;
-    width: 95.0%;
+    width: 94.0%;
   }
 
 }
