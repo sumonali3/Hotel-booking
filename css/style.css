@@ -504,6 +504,9 @@
     flex-direction: column;
   }
 
+  .contain-part-2 a{
+    text-align: centerq;
+  }
   .sec-container-img-part {
     width: 100%;
     padding: 0 10px;
