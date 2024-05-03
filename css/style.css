@@ -542,10 +542,11 @@
 
 .divider {
   padding: 50px 50px 80px 50px;
+  width: 100%;
 }
 
 .divider hr {
-  width: 98%;
+  width: 100%;
 }
 
 .footer-1 {
@@ -632,6 +633,10 @@
     padding: 50px 30px 40px 30px;
   }
 
+  .divider hr{
+    width: 100%;
+  }
+
   .form  {
     width: 100%;
     text-align: center;
@@ -677,8 +682,14 @@
 
   .divider {
     padding: 50px 30px 40px 30px;
+    width: 100%;
+
   }
 
+  .divider hr{
+    width: 100%;
+  }
+ 
   .form  {
     width: 100%;
     text-align: center;
